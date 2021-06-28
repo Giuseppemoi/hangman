@@ -1,0 +1,47 @@
+.container {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: auto;
+}
+
+.container .spacing {
+  letter-spacing: 4px;
+}
+
+.container .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .input .letter {
+  width: 50px;
+  height: 50px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.container .input .submit {
+  margin: 10px 10px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
