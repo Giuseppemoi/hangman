@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Hangman">
     <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
         <div class="container">
             <h1 class="title">The Hangman</h1>
-            <h2 class="word" id="wordFind"></h2>
-            <p>Letters alraidy submit</p>
+            <h2 class="word" id="wordFind">bonjour</h2>
+            <p id="before">Letters alraidy submit</p>
             <p class="spacing" id="ltAlSub"></p>
             <canvas id="hang" width="300" height="300"></canvas>
-            <label for="letter" class="label" id="label">Just press a key on your keybord</label>
+            <label class="label" id="label">Just press a key on your keybord</label>
             <!-- <div class="input" id="input">
                 <input type="text" class="letter" id="letter" name="letter" maxlength="1">
                 <button class="submit" id="submit">Submit</button>
