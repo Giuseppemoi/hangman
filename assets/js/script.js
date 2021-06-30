@@ -123,6 +123,7 @@
             if (attempt == 0) {
                 document.getElementById("attempt").innerHTML = "You loose!"
                 win = true
+                alert("The word was " + randomWord)
             }
     
             if (goodAttempt == randomWord.length) {
