@@ -4,6 +4,7 @@
     ctx.lineWidth="5";
     ctx.strokeStyle="#316AC5";
     
+    // Echafaud
     ctx.beginPath();
     ctx.moveTo(50, 50);
     ctx.lineTo(150, 50);
@@ -18,6 +19,7 @@
     ctx.lineTo(80, 250);
     ctx.stroke();
 
+    // Function to add the hangman
     function hang(x){
         switch (x) {
             case 7:
@@ -84,7 +86,6 @@
     var attempt = 7;
     var goodAttempt = 0
     var win = false
-
 
     document.addEventListener("keydown", (event)=> {
         if (win) {
